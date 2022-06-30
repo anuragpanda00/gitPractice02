@@ -2,5 +2,5 @@
 
 echo "Hi Man this is a file created in GITHUB"
 echo
-echo "So, ou can practice pull request"
+echo "So, you can practice pull request"
 echo
