@@ -1,0 +1,32 @@
+pipeline{
+         agent any
+	 stages{
+	        stage('Intial'){
+		steps{
+		echo ' Hi man Intial Commit is being build '
+		}
+		}
+
+		stage('Build'){
+		steps{
+		echo 'Building the commit'
+		}
+		}
+
+		stage('Deploy in QA'){
+		steps{
+		echo ' I am deploying in QA Environment '
+		}
+		}
+
+		stage('Deploy in PRE-PROD'){
+		steps{
+		echo 'I am deploying in PRE-PROD Environment'
+		}
+		}
+
+
+	 }
+
+
+}
